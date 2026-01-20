@@ -7,7 +7,9 @@ The project focuses on understanding the structure of the dataset and uncovering
 This analysis provides a strong foundation for further data work — particularly in the context of **classification, predictive modeling, and machine learning** — and reflects my mindset as a **Junior Data Analyst / Junior Data Scientist**: curiosity, attention to detail, and the ability to translate data into clear, actionable insights.
 
 
-<a href="titanic.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="titanic.html" class="md-button md-button--primary" download>
+Download Notebook (HTML)
+</a>
 
 <iframe
     id="content"
