@@ -1,0 +1,17 @@
+site_name: My projects 
+site_author: Małgorzata Osmęda
+site_description: >-
+    Portfolio of my amazing Data Science and AI projects!
+
+theme:
+  name: material
+
+nav:
+- Home Page: index.md
+- EDA Projects:
+  - "Titanic": titanic/index.md
+  - "Iris": iris/index.md
+- APP Projects:
+  - "Community matching application": Community matching application/index.md
+  - "AI receipe generator": AI receipe generator/index.md
+  - "Half Marathon Time Predictor": Half Marathon Time Predictor/index.md
