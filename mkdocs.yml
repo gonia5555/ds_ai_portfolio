@@ -2,6 +2,9 @@ site_name: My projects
 site_author: Małgorzata Osmęda
 site_description: >-
     Portfolio of my amazing Data Science and AI projects!
+    
+repo_name: gonia5555/ds_ai_portfolio
+repo_url: https://github.com/gonia5555/ds_ai_portfolio
 
 theme:
   name: material

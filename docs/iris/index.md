@@ -7,7 +7,9 @@ The project focuses on uncovering the structure of the data and relationships be
 This analysis provides a strong starting point for further data work — especially in the context of **classification, modeling, and machine learning** — and reflects my mindset as a **Junior Data Analyst / Junior Data Scientist**: curiosity, attention to detail, and the ability to translate data into clear, actionable insights.
 
 
-<a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="iris.html" class="md-button md-button--primary" download>
+Download Notebook (HTML)
+</a>
 
 <iframe
     id="content"
