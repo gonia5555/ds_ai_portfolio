@@ -9,6 +9,11 @@ repo_url: https://github.com/gonia5555/ds_ai_portfolio
 theme:
   name: material
 
+
+extra_css:
+  - styles/extra.css
+
+
 nav:
 - Home Page: index.md
 - EDA Projects:

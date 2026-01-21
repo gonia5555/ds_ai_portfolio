@@ -1,4 +1,5 @@
-<div style="display: flex; align-items: flex-start;">
+<div class="intro-card" style="display: flex; align-items: flex-start;">
+
   <img src="images/profile.png" width="250" style="margin-right: 20px;" />
 
   <div>
