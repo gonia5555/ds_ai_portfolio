@@ -1,0 +1,177 @@
+/* ---------- GLOBAL BACKGROUND ---------- */
+body {
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+ 
+
+/* Delikatna biała warstwa dla czytelności */
+.md-main__inner {
+  background-color: rgba(255, 255, 255, 0.82); /* było 0.95 */
+  background-image:
+    radial-gradient(rgba(180, 210, 240, 0.18) 0.5px, transparent 0.5px);
+  background-size: 22px 22px;
+}
+
+
+
+/* ---------- SIDEBAR WITH BACKGROUND IMAGE (READABLE & SOFT) ---------- */
+
+.md-sidebar__inner,
+.md-sidebar--secondary .md-sidebar__inner {
+  background:
+    /* delikatne przyciemnienie obrazka */
+    linear-gradient(
+      rgba(15, 39, 66, 0.35),
+      rgba(15, 39, 66, 0.35)
+    ),
+    /* jasnoniebieski overlay */
+    linear-gradient(
+      rgba(207, 228, 246, 0.72),
+      rgba(207, 228, 246, 0.72)
+    ),
+    url("../images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-right: 1px solid rgba(159, 197, 232, 0.8);
+  box-shadow: 2px 0 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Prawy sidebar */
+.md-sidebar--secondary .md-sidebar__inner {
+  border-left: 1px solid rgba(159, 197, 232, 0.8);
+  box-shadow: -2px 0 18px rgba(0, 0, 0, 0.18);
+}
+
+
+/* ---------- NAVIGATION LINKS ---------- */
+
+.md-nav__link {
+  color: #163a5f;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.md-nav__link:hover {
+  background-color: #b6d4ef;
+  color: #0b3c6f;
+}
+
+/* Aktywna pozycja */
+.md-nav__item--active > .md-nav__link {
+  background-color: #9fc5e8;
+  color: #0b3c6f;
+  font-weight: 600;
+}
+
+/* ---------- SECTION TITLES ---------- */
+.md-nav__title {
+  color: #0b3c6f;
+  font-weight: 600;
+}
+
+/* ---------- HEADER ---------- */
+.md-header {
+  background-color: #d9ecf9;
+  color: #1f3a5f;
+}
+
+/* ---------- FOOTER ---------- */
+.md-footer {
+  background-color: #d9ecf9;
+  color: #1f3a5f;
+}
+
+/* ---------- CODE BLOCKS (Data Science look) ---------- */
+code {
+  background-color: #f2f7fb;
+  border-radius: 6px;
+}
+
+/* ---------- TABLES ---------- */
+.md-typeset table:not([class]) {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.md-typeset h1 + p,
+.md-typeset h1 + p + p {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* ---------- INTRO CARD (PHOTO + TEXT) ---------- */
+
+.intro-card {
+  background: rgba(255, 255, 255, 0.88);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+
+/* Zdjęcie – delikatne wygładzenie */
+.intro-card img {
+  border-radius: 14px;
+}
+
+/* Nagłówek */
+.intro-card h1 {
+  margin-top: 0;
+  color: #0b3c6f;
+}
+
+/* Paragrafy w karcie */
+.intro-card p {
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+ .md-main {
+  position: relative;
+}
+
+.md-main::before,
+.md-main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.md-main::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0.7)
+  );
+}
+
+.md-main::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0.7)
+  );
+}
+.md-sidebar--secondary {
+  font-size: 1rem;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
